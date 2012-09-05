@@ -1,0 +1,11 @@
+start
+left
+right
+down
+drop
+clockwise
+counterclockwise
+levelup
+leveldown
+restart
+rename

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+mkdir build
+cp src/*.cc build
+cp inc/*.h build
+cp makefile build
+cd build
+make
+cd ..
+cp build/quadris Debug
+rm -R build
+exit 0
